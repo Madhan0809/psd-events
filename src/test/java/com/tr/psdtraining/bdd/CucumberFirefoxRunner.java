@@ -9,7 +9,7 @@ import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(tags = "", strict = true, format = {"html:target/cucumber"})
+@CucumberOptions(tags = "@event", strict = true, format = {"html:target/cucumber"})
 
 public class CucumberFirefoxRunner {
     @BeforeClass

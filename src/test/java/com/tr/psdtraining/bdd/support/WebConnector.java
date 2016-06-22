@@ -92,7 +92,7 @@ public class WebConnector {
     }
 
     public static String getHost() {
-        return "";
+        return "localhost:8080";
     }
 
     /**
