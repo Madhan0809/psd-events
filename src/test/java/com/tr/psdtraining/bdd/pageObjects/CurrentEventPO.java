@@ -11,7 +11,7 @@ import static com.tr.psdtraining.bdd.support.WebConnector.waitForElement;
 
 public class CurrentEventPO {
 
-    @FindBy(css = "")
+    @FindBy(tagName = "h2")
     private WebElement currentEventFromlabel;
 
     public String returnFormLabelText() {

@@ -9,19 +9,19 @@ import static com.tr.psdtraining.bdd.support.WebConnector.*;
 
 public class NewEventPO {
 
-    @FindBy(css = "")
+    @FindBy(tagName = "h2")
     private WebElement newEventsFromlabel;
 
-    @FindBy(css = "")
+    @FindBy(css = "#location")
     private WebElement locationTextField;
 
-    @FindBy(css = "")
+    @FindBy(css = "#time")
     private WebElement timeTextField;
 
-    @FindBy(css = "")
+    @FindBy(css = "#locationDetails")
     private WebElement locationDetailsTextField;
 
-    @FindBy(css = "")
+    @FindBy(css = "#submitEvent")
     private WebElement submitButton;
 
     public static String eventPageUrl() {
